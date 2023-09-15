@@ -1,6 +1,6 @@
 require_relative '../solver'
 
-RSpec.describe Solver do
+describe Solver do
   describe '#factorial' do
     it 'returns 1 when given 0' do
       expect(Solver.new.factorial(0)).to eq(1)
